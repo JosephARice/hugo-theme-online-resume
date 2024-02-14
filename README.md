@@ -37,7 +37,7 @@ Features:
 - Create new hugo site and add the theme through git submodule.
   - `hugo new site resume`
   - `cd resume && git init`
-  - `git submodule add git@github.com:tarrex/hugo-theme-online-resume.git themes/online-resume`
+  - `git clone https://github.com/JosephARice/hugo-theme-online-resume themes/online-resume`
 - Copy `config.yml` and `data.yml` files.
   - `cp themes/online-resume/exampleSite/config.yml .`
   - `cp themes/online-resume/exampleSite/data/data.yml ./data`
